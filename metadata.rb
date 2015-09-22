@@ -1,8 +1,7 @@
 name             'fancy_execute'
-maintainer       'The Authors'
-maintainer_email 'you@example.com'
+maintainer       'Irving Popovetsky'
+maintainer_email 'irving@chef.io'
 license          'all_rights'
-description      'Installs/Configures fancy_execute'
-long_description 'Installs/Configures fancy_execute'
-version          '0.1.0'
-
+description      'Overrides the execute resource to force live_streaming of output'
+long_description 'Overrides the execute resource to force live_streaming of output'
+version          '1.0.0'
