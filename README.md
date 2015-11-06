@@ -22,4 +22,4 @@ this cookbook uses [Ruby monkey patching](http://stackoverflow.com/questions/394
 It checks for the existance of a new configuration option: `Chef::Config[:live_stream]`, which is set by default in this cookbook
 
 # Version compatibility
-The current version (1.0.0) is compatible with Chef 12.1.0+ as far as I know.   The previous version (0.1.0) was compatible with Chef 11 and Chef 12.0.x
+The current version (1.0.0) is compatible with Chef 12.4.0+ as far as I know. The previous version (0.1.0) was compatible with Chef 11 and Chef 12.0.x
