@@ -23,7 +23,7 @@ class Chef
   class Provider
     class FancyExecute < Chef::Provider::Execute
 
-      # this code will only work with Chef 12.1+
+      # this code will only work with Chef 12.4+
       provides :execute, override: true
 
       # force this to on if not set
