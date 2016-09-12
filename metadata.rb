@@ -6,4 +6,4 @@ description      'Overrides the execute resource to force live_streaming of outp
 long_description 'Overrides the execute resource to force live_streaming of output'
 source_url       'https://github.com/irvingpop/fancy_execute'
 issues_url       'https://github.com/irvingpop/fancy_execute/issues'
-version          '1.0.1'
+version          '1.0.2'
