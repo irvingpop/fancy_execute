@@ -61,5 +61,5 @@ end
 
 # Set FancyExecute as the default provider for :execute on Linux platforms
 %w(debian ubuntu fedora redhat centos).each do |platform|
-  Chef::Platform.set plaform: platform.to_sym, resource: :execute, provider: Chef::Provider::FancyExecute
+  Chef::Provider::FancyExecute.provides :execute,platform: platform.to_sym
 end
