@@ -60,6 +60,6 @@ class Chef
 end
 
 # Set FancyExecute as the default provider for :execute on Linux platforms
-%w(debian ubuntu fedora redhat centos).each do |platform|
+%w(debian ubuntu fedora redhat centos amazon).each do |platform|
   Chef::Provider::FancyExecute.provides :execute,platform: platform.to_sym
 end
